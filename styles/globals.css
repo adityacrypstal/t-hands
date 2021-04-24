@@ -1,0 +1,66 @@
+.header-parallax {
+    /* The image used */
+    background-image: linear-gradient(rgba(2, 192, 217, 0.31) 100%, rgba(0, 0, 0, 0.5) 100%), url("../public/img/bg1.JPG");
+    min-height: 330px;
+    margin-top: -15px;
+    background-attachment: scroll;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #02c0d9;
+}
+
+.about-us-container {
+    height: 100vh;
+}
+
+.about-us-container h2 {
+    padding-top: 20px;
+}
+
+h2::before {
+    background: #02c0d9 none repeat scroll 0 0;
+    bottom: 191px;
+    content: "";
+    height: 4px;
+    left: 46%;
+    position: absolute;
+    width: 102px;
+    margin: 0 auto;
+}
+
+.about-text {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* justify-content: center; */
+    height: 100%;
+    font-size: 18px;
+    line-height: 30px;
+    text-align: justify;
+    letter-spacing: 1px;
+}
+
+.about-text p:first-letter {
+    font-size: 25px;
+    color: #02c0d9;
+}
+
+.members-container {
+    height: 100vh;
+}
+
+.members-container h2 {
+    padding-top: 20px;
+}
+
+.members-container table {
+    margin-top: 60px;
+}
+
+.table-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}

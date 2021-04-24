@@ -40,11 +40,11 @@ const Header = () => {
                         <div className="col-md-7 col-sm-12 col-xs-12">
                             <div className="menu">
                                 <ul className="nav navbar-nav">
-                                    <li className="active"><a href="#">HOME</a></li>
-                                    <li><a href="#">ABOUT US</a></li>
-                                    <li><a href="#">EVENT</a></li>
-                                    <li><a href="#">BLOG</a></li>
-                                    <li><a href="#">CONTACT</a></li>
+                                    <li className="active"><a href="/">HOME</a></li>
+                                    <li><a href="/about">ABOUT US</a></li>
+                                    <li><a href="/members">MEMBERS</a></li>
+                                    <li><a href="/blog">BLOG</a></li>
+                                    <li><a href="/contact">CONTACT</a></li>
                                 </ul>
                             </div>
                         </div>

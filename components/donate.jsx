@@ -12,13 +12,13 @@ const Donate = () => {
                             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. </p>
                         <div className="progress-text">
-                            <p className="progress-top">50%</p>
+                            <p className="progress-top">10%</p>
                             <div className="progress">
                                 <div className="progress-bar" role="progressbar" aria-valuenow="70"
-                                     aria-valuemin="0" aria-valuemax="100" style={{width:"50%"}}></div>
+                                     aria-valuemin="0" aria-valuemax="100" style={{width:"10%"}}></div>
                             </div>
-                            <p className="progress-left">Raised: $1200</p>
-                            <p className="progress-right">Goal: $2400</p>
+                            <p className="progress-left">Raised: 60K</p>
+                            <p className="progress-right">Goal: 600K</p>
                         </div>
                         <h2><a href="#">DONATE NOW</a></h2>
                     </div>
