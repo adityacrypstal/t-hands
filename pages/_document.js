@@ -26,7 +26,8 @@ class MyDocument extends Document {
                     <link rel="icon" href="/favicon.ico"/>
                     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
                     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet"/>
-
+                    <link rel="preconnect" href="https://fonts.gstatic.com" />
+                    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet"/>
                     <link rel="stylesheet" href="./css/bootstrap.css"/>
                     <link rel="stylesheet" href="./css/font-awesome.min.css"/>
                     <link rel="stylesheet" href="./css/owl.carousel.min.css"/>

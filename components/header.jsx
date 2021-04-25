@@ -1,6 +1,8 @@
 import React from 'react';
+import { useRouter } from 'next/router'
 
-const Header = () => {
+const Header = ({path}) => {
+    const router = useRouter();
     return (
         <header className="header">
             <section className="header-top">
@@ -40,11 +42,11 @@ const Header = () => {
                         <div className="col-md-7 col-sm-12 col-xs-12">
                             <div className="menu">
                                 <ul className="nav navbar-nav">
-                                    <li className="active"><a href="/">HOME</a></li>
-                                    <li><a href="/about">ABOUT US</a></li>
-                                    <li><a href="/members">MEMBERS</a></li>
+                                    <li className={router.asPath==="/"?"active":""}><a href="/">HOME</a></li>
+                                    <li className={router.asPath==="/about"?"active":""}><a href="/about" >ABOUT US</a></li>
+                                    <li className={router.asPath==="/members"?"active":""}><a href="/members" >MEMBERS</a></li>
                                     <li><a href="https://thandsorg.blogspot.com/" target={"_blank"}>BLOG</a></li>
-                                    <li><a href="/contact">CONTACT</a></li>
+                                    <li className={router.asPath==="/contact"?"active":""}><a href="/contact" >CONTACT</a></li>
                                 </ul>
                             </div>
                         </div>

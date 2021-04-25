@@ -70,7 +70,9 @@ h1, h2 {
     margin: 0;
     padding: 0;
 }
-
+body{
+    font-family: 'Ubuntu', sans-serif;
+}
 .header .header-top .join-us p a {
     background: #02c0d9 none repeat scroll 0 0;
     color: #fff;
@@ -92,7 +94,7 @@ h1, h2 {
 
 .header .header-bottom .menu ul li a {
     color: #000;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 15px;
     font-weight: 400;
     margin-right: 0;
@@ -104,6 +106,7 @@ h1, h2 {
 .nav > li > a:focus {
     text-decoration: none;
     background-color: transparent;
+    color:#02c0d9 !important;
 }
 
 .main-logo {
@@ -139,13 +142,13 @@ h1, h2 {
     color: #fff;
     font-size: 35px;
     font-weight: bold;
-    font-family: 'Roboto', sans-serif;
+    /*font-family: 'Roboto', sans-serif;*/
     margin-top: 210px;
 }
 
 .carosal-area .text > p {
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 15px;
     font-weight: 400;
     line-height: 30px;
@@ -162,7 +165,7 @@ h1, h2 {
     border: 1px solid #fff;
     border-radius: 25px;
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 16px;
     font-weight: 500;
     padding: 15px 40px;
@@ -226,7 +229,7 @@ h1, h2 {
 
 .wrapper section > h2 {
     color: #3c354e;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 32px;
     font-weight: 700;
     margin: 115px auto 50px;
@@ -248,7 +251,7 @@ h1, h2 {
 }
 
 .wrapper section > p {
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 15px;
     font-weight: 400;
     line-height: 30px;
@@ -294,7 +297,7 @@ h1, h2 {
 
 .our_activity .single-Promo h2 a {
     text-decoration: none;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 22px;
     font-weight: 500;
     color: #3c354e;
@@ -302,7 +305,7 @@ h1, h2 {
 
 .our_activity .single-Promo p {
     color: #3c354e;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 15px;
     font-weight: 400;
     line-height: 26px;
@@ -339,7 +342,7 @@ h1, h2 {
 }
 
 .donate_section h4 {
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 20px;
     font-weight: 500;
     color: #fff;
@@ -348,7 +351,7 @@ h1, h2 {
 
 .donate_section h3 {
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 30px;
     font-weight: 700;
     margin-bottom: 35px;
@@ -357,7 +360,7 @@ h1, h2 {
 
 .donate_section p {
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 15px;
     font-weight: 400;
     line-height: 30px;
@@ -408,7 +411,7 @@ h1, h2 {
     background: #fff none repeat scroll 0 0;
     border-radius: 30px;
     color: #02c0d9;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 16px;
     font-weight: 500;
     padding: 15px 40px;
@@ -426,7 +429,7 @@ h1, h2 {
 
 .events_section_area .events_single p {
     font-size: 14px;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     margin-top: 14px;
     font-weight: 400;
     position: relative;
@@ -452,7 +455,7 @@ h1, h2 {
 }
 
 .events_section_area .events_single h3 {
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 20px;
     font-weight: 700;
     margin-top: 70px;
@@ -466,7 +469,7 @@ h1, h2 {
 
 .events_section_area .events_single h6 {
     color: #6f6f6f;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 15px;
     font-weight: 400;
     line-height: 32px;
@@ -490,7 +493,7 @@ h1, h2 {
 
 .our_cuauses .our_cuauses_single .item h2 {
     color: #3c354e;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 20px;
     font-weight: 700;
     margin: 110px 0 40px;
@@ -498,7 +501,7 @@ h1, h2 {
 
 .our_cuauses .our_cuauses_single .item p {
     color: #595959;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 15px;
     font-weight: 400;
     margin: 0;
@@ -551,7 +554,7 @@ h1, h2 {
 
 .our_cuauses h2. {
     color: #3c354e;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 32px;
     font-weight: 700;
     margin: 115px auto 50px;
@@ -580,7 +583,7 @@ h1, h2 {
 }
 
 .wrapper .our_cuauses > p {
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 15px;
     font-weight: 400;
     line-height: 30px;
@@ -591,7 +594,7 @@ h1, h2 {
     background: #fff none repeat scroll 0 0;
     border-radius: 30px;
     color: #02c0d9;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 16px;
     font-weight: 500;
     padding: 15px 40px;
@@ -661,7 +664,7 @@ h1, h2 {
 .donors .donors_input h2,
 .donors .donors_image h2 {
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 22px;
     font-weight: 500;
     margin: 75px 0 50px;
@@ -674,7 +677,7 @@ h1, h2 {
 
 .donors .donors_input p {
     color: #fff;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 15px;
     font-weight: 400;
     margin: 35px 0;
@@ -702,7 +705,7 @@ h1, h2 {
 }
 
 .donors .donors_input h5 input[type="text"] {
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 15px;
     font-weight: 400;
     color: #fff;
@@ -710,7 +713,7 @@ h1, h2 {
 }
 
 .donors .donors_input h5 input[type="email"] {
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 15px;
     font-weight: 400;
     color: #fff;
@@ -722,7 +725,7 @@ h1, h2 {
     border: 2px solid #02c0d9;
     border-radius: 10px;
     color: #02c0d9;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 15px;
     font-weight: 500;
     margin-top: 45px;
@@ -741,7 +744,7 @@ h1, h2 {
     padding: 17px 20px;
     border-radius: 10px;
     border: 1px solid #fff;
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 15px;
     font-weight: 400;
     color: #fff;
@@ -766,13 +769,13 @@ h1, h2 {
 }
 
 .donors .donors_image .item h3 {
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 20px;
     font-weight: 500;
 }
 
 .donors .donors_image .item p {
-    font-family: "Roboto", sans-serif;
+    /*font-family: "Roboto", sans-serif;*/
     font-size: 15px;
     font-weight: 400;
     margin: 10px 0 75px;
