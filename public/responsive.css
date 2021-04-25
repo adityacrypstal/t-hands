@@ -1,4 +1,4 @@
-@media (min-width: 992px) and (max-width: 1300px) {
+@media (min-width: 992px) {
     .header .header-bottom .menu ul li a {
         padding-left: 17px;
     }
@@ -11,6 +11,20 @@
     }
     .donors .donors_input h4 select {
         max-width: 483px;
+    }
+    .about{
+        flex-direction: row;
+    }
+    .join-us-banner button{
+        font-size: 20px;
+        padding:5px 30px;
+    }
+    .header-parallax{
+        min-height:230px;
+    }
+    .contact-us{
+        width:70%;
+        height:400px;
     }
 }
 
@@ -49,6 +63,20 @@
     }
     .footer_carosal .footer_carosal_icon .item img {
         width: 100px;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .join-us-banner button{
+        font-size: 10px;
+        padding:5px 20px;
+    }
+    .header-parallax{
+        min-height:130px;
+    }
+    .contact-us{
+        width:auto;
+        height:auto;
     }
 }
 
@@ -141,5 +169,26 @@
     }
     .carosal_bottom {
         height: auto;
+    }
+    .about{
+        flex-direction: column;
+    }
+    .join-us-banner h3{
+        font-size: 15px;
+    }
+    .join-us-banner button{
+        font-size: 15px;
+        padding:5px 20px;
+    }
+    .header-parallax{
+        min-height:100px;
+    }
+    .contact-us{
+        width:auto;
+        height:auto;
+    }
+    .contact-items img{
+        width:180px;
+        margin:40px;
     }
 }

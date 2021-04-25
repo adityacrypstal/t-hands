@@ -1,7 +1,6 @@
 .header-parallax {
     /* The image used */
     background-image: linear-gradient(rgba(2, 192, 217, 0.31) 100%, rgba(0, 0, 0, 0.5) 100%), url("../public/img/bg2.svg");
-    min-height: 230px;
     margin-top: -15px;
     background-attachment: fixed;
     background-position: center;
@@ -41,7 +40,7 @@
     justify-content: center;
     font-size: 17px;
     line-height: 30px;
-    text-align: justify;
+    text-align: center;
     letter-spacing: 1px;
 }
 
@@ -54,7 +53,6 @@
 
 .about {
     display: flex;
-    flex-direction: row;
     justify-content: space-around;
 }
 
@@ -107,13 +105,11 @@
     color:white!important
 }
 .join-us-banner button{
-    padding:5px 30px;
     margin:10px;
     font-weight: bolder;
     background-color: transparent;border: 2px solid white;
     color: white;
     border-radius: 20px;
-    font-size: 20px;
 }
 .center{
     display:flex;
@@ -131,8 +127,6 @@ button:focus{
     margin-bottom:20vh;
 }
 .contact-us{
-    width:70%;
-    height:400px;
     margin: -4% auto auto;
     background-color: white;
     border-radius: 10px;
@@ -155,4 +149,5 @@ button:focus{
 .contact-items span{
     padding-top:20px;
     display: flex;
+    white-space: nowrap;
 }

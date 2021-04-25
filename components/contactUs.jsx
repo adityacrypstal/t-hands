@@ -20,7 +20,7 @@ const ContactUs = () => {
 
                    <span><b>Instagram</b> : instagram.com/t_hands_<br/></span>
 
-                   <span><b>Instagram Thirikey</b> : instagram.com/team_thirikey</span>
+                   <span><b>Thirikey(IG)</b>: instagram.com/team_thirikey</span>
                </div>
                <div className={"contact-items col-md-6"}>
                    <img src="./img/t-hands-logo-1.png" alt=""/>
