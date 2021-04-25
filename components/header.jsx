@@ -43,7 +43,7 @@ const Header = () => {
                                     <li className="active"><a href="/">HOME</a></li>
                                     <li><a href="/about">ABOUT US</a></li>
                                     <li><a href="/members">MEMBERS</a></li>
-                                    <li><a href="/blog">BLOG</a></li>
+                                    <li><a href="https://thandsorg.blogspot.com/" target={"_blank"}>BLOG</a></li>
                                     <li><a href="/contact">CONTACT</a></li>
                                 </ul>
                             </div>

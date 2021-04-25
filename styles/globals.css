@@ -11,34 +11,66 @@
 }
 
 .about-us-container {
-    height: 100vh;
+    margin-bottom: 20vh;
 }
 
 .about-us-container h2 {
     padding-top: 20px;
 }
 
-h2::before {
+.about .material-icons {
+    font-size: 35px;
+    padding: 10px 10px 10px 0px;
+}
+
+.hr::before {
     background: #02c0d9 none repeat scroll 0 0;
-    bottom: 191px;
+    /*bottom: 191px;*/
     content: "";
     height: 4px;
-    left: 46%;
+    margin-top:40px;
     position: absolute;
-    width: 102px;
-    margin: 0 auto;
+    width: 5%;
+    left:48%;
 }
 
 .about-text {
     display: flex;
     flex-direction: row;
     align-items: center;
-    /* justify-content: center; */
-    height: 100%;
-    font-size: 18px;
+    justify-content: center;
+    font-size: 17px;
     line-height: 30px;
     text-align: justify;
     letter-spacing: 1px;
+}
+
+.about-image {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-item: center;
+}
+
+.about {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.about .item h1 {
+    display: flex;
+    align-items: center;
+}
+
+.about .item {
+    display: flex;
+    flex-direction: column;
+    border-left: 8px solid #02c0d9;
+    margin: 10px;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+    padding:30px;
+    border-radius: 7px;
 }
 
 .about-text p:first-letter {
@@ -47,7 +79,7 @@ h2::before {
 }
 
 .members-container {
-    height: 100vh;
+    margin-bottom: 20vh;
 }
 
 .members-container h2 {
@@ -63,4 +95,35 @@ h2::before {
     flex-direction: row;
     justify-content: center;
     align-items: center;
+}
+.join-us-banner{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    padding:8px;
+    background-color: #02c0d9;
+}
+.join-us-banner h3{
+    color:white!important
+}
+.join-us-banner button{
+    padding:5px 30px;
+    margin:10px;
+    font-weight: bolder;
+    background-color: transparent;border: 2px solid white;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+.center{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.center p{
+    text-align: center;
+}
+button:focus{
+    outline: none;
 }
