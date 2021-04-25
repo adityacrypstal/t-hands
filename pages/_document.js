@@ -11,7 +11,7 @@ class MyDocument extends Document {
         return (
             <Html lang="en" dir="ltr">
                 <Head crossOrigin={true}>
-                    <title>T-hands || Team Thirikey</title>
+                    <title>T-hands || Be The Change</title>
                     <meta content="React || Node || Angular || Next || Javascript || Python || AWS || Mongo || SQL"
                           name="description"/>
                     <meta

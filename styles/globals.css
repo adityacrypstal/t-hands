@@ -1,9 +1,9 @@
 .header-parallax {
     /* The image used */
-    background-image: linear-gradient(rgba(2, 192, 217, 0.31) 100%, rgba(0, 0, 0, 0.5) 100%), url("../public/img/bg1.JPG");
-    min-height: 330px;
+    background-image: linear-gradient(rgba(2, 192, 217, 0.31) 100%, rgba(0, 0, 0, 0.5) 100%), url("../public/img/bg2.svg");
+    min-height: 230px;
     margin-top: -15px;
-    background-attachment: scroll;
+    background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -101,7 +101,7 @@
     flex-direction: row;
     justify-content: space-evenly;
     padding:8px;
-    background-color: #02c0d9;
+    background-color: #3eb3ca;
 }
 .join-us-banner h3{
     color:white!important
@@ -126,4 +126,33 @@
 }
 button:focus{
     outline: none;
+}
+.contact-container{
+    margin-bottom:20vh;
+}
+.contact-us{
+    width:70%;
+    height:400px;
+    margin: -4% auto auto;
+    background-color: white;
+    border-radius: 10px;
+    padding:20px;
+    box-shadow: 0 5px 20px 0 rgb(0 0 0 / 10%);
+    position: relative;
+}
+.contact-header{
+   margin-left:15px
+}
+.contact-header::before{
+    content:"  ";
+    background-color:  #02c0d9;
+    width:7px;
+    height:40px;
+    position: absolute;
+    top:40px;
+    left:20px
+}
+.contact-items span{
+    padding-top:20px;
+    display: flex;
 }
