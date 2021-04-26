@@ -12,17 +12,18 @@ class MyDocument extends Document {
             <Html lang="en" dir="ltr">
                 <Head crossOrigin={true}>
                     <title>T-hands || Be The Change</title>
-                    <meta content="React || Node || Angular || Next || Javascript || Python || AWS || Mongo || SQL"
+                    <meta content="Thirike is an emerging organization formed and maintained by a bunch of batch mates of John Memorial High School Sasthamcotta (2007-2013) batch.
+                    In todays hectic world social responsibility is something we are ignorant of. T-hands is our own creation to bring changes in the system by reminding their duties and responsibilities towards the society."
                           name="description"/>
                     <meta
-                        content="freelance, developer,full stack, kerala, websites, javascript, node, react, performance, javascript, js, crpstal, india"
+                        content="thirikey, thands,t-hands, ngo, jmhs, bharanikavu,kerala"
                         name="keywords"/>
                     <meta name="robots" content="index, follow"/>
-                    <meta property="og:title" content="ADITYA || Full Stack Developer"/>
+                    <meta property="og:title" content="T-Hands || Be The Change"/>
                     <meta property="og:description"
-                          content="React | Node | Angular | Next | Javascript | Python | AWS | Mongo | SQL"/>
+                          content="Thirike is an emerging organization formed and maintained by a bunch of batch mates of John Memorial High School Sasthamcotta (2007-2013) batch."/>
                     <meta property="og:image" content="https://i.ibb.co/3mY2dBV/MG-8895-removebg-preview-1.png"/>
-                    <meta property="og:url" content="http://adityav.in"/>
+                    <meta property="og:url" content="http://t-hands.org"/>
                     <link rel="icon" href="/favicon.ico"/>
                     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
                     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet"/>
