@@ -56,7 +56,9 @@
     justify-content: space-around;
     margin-bottom:50px;
 }
-
+.about:nth-of-type(1){
+    margin-top: 100px !important;
+}
 .about .item h1 {
     display: flex;
     align-items: center;
