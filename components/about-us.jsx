@@ -11,34 +11,21 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div className="col-md-6 about-text">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi blanditiis cum, esse eveniet
-                        ex
-                        illo inventore iure natus numquam vel veniam vero? Animi cumque eius modi nisi reprehenderit
-                        velit.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet at, autem consequuntur dolore
-                        explicabo id illo in iure laboriosam magnam modi
-                        <br/> <br/>necessitatibus nobis nulla optio quas sequi voluptas voluptate?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque dicta magni, mollitia
-                        provident quam unde?
-                        Ab adipisci alias delectus doloribus expedita, hic, laborum mollitia nemo qui tempora unde,
-                        velit?
+                    <p> T-Hands is an emerging organization formed and maintained by a bunch of batch mates of John Memorial High School Sasthamcotta (2007-2013) batch. In todays hectic world social responsibility is something we are ignorant of.
+                        <br/> <br/>
+                        T-hands is our own creation to bring changes in the system by reminding their duties and responsibilities towards the society.
+                        <br/> <br/>
+                        In order to make our life better we consciously forget our humanity. Just helping others are not enough... We can do a lot to bring satisfaction in the lives of others.
+
                     </p>
 
                 </div>
             </div>
             <div className="row h-75 about">
                 <div className="col-md-6 about-text">
-                    <p> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab animi blanditiis cum, esse eveniet
-                        ex
-                        illo inventore iure natus numquam vel veniam vero? Animi cumque eius modi nisi reprehenderit
-                        velit.
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ab amet at, autem consequuntur dolore
-                        explicabo id illo in iure laboriosam magnam modi
-                        <br/> <br/>necessitatibus nobis nulla optio quas sequi voluptas voluptate?
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquam atque dicta magni, mollitia
-                        provident quam unde?
-                        Ab adipisci alias delectus doloribus expedita, hic, laborum mollitia nemo qui tempora unde,
-                        velit?
+                    <p> As a team we are more into make the life of others more happy and successful. We are here to help students in their studies, to fulfill the responsibilities towards the society, to help the impoverished to fulfill their wishes...
+                        <br/> <br/>
+                        One thing we can assure you; we will be always there to hold you in your difficulties, falls and will be there to encourage you in your success.
                     </p>
 
                 </div>
@@ -51,17 +38,11 @@ const AboutUs = () => {
             <div className="row about">
                 <div className="col-md-6 item">
                     <h1> <span className="material-icons">task_alt</span><span>Mission</span></h1>
-                    <p className={'about-text'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-                        commodi eligendi enim, est
-                        exercitationem harum iure iusto, minima necessitatibus nesciunt nobis placeat quis quisquam quo
-                        reiciendis repudiandae vero, voluptate voluptatum.</p>
+                    <p className={'about-text'}>Our mission is to invent a new living space through love,care and social services which will enhance the quality life of deprived ones</p>
                 </div>
                 <div className="col-md-6 item">
                     <h1> <span className="material-icons">visibility</span><span>Vision</span></h1>
-                    <p className={'about-text'}>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus
-                        commodi eligendi enim, est
-                        exercitationem harum iure iusto, minima necessitatibus nesciunt nobis placeat quis quisquam quo
-                        reiciendis repudiandae vero, voluptate voluptatum.</p>
+                    <p className={'about-text'}>Be the hands to bring the change</p>
                 </div>
             </div>
         </div>
