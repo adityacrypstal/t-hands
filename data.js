@@ -1,29 +1,29 @@
 export const members = [{
     name:"Parvathy J Anil",
     designation:"President",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619630048/samples/parvathy_hoemol.jpg"
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619795404/samples/members/parvathy_sojejo.jpg"
 },{
     name:"Meghanath",
     designation:"President",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619630047/samples/meghanath_bwxhqm.jpg"
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619795404/samples/members/meghanath_vb6vvq.jpg"
 },{
     name:"Salman",
     designation:"President",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619630047/samples/salman_mtaabu.jpg"
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619795404/samples/members/salman_iaczra.jpg"
 },{
     name:"Anand",
     designation:"President",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619630033/samples/anand_wov3ur.png"
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619795418/samples/members/anand_ykpcl5.png"
 },{
     name:"Ashik",
     designation:"President",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619630049/samples/ashik_vq89sf.jpg"
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619795404/samples/members/ashik_s11nyi.jpg"
 },{
     name:"Ashik Bin",
     designation:"President",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619630049/samples/ashikbin_jjczh5.jpg"
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619795404/samples/members/ashikbin_l4bpmz.jpg"
 },{
     name:"Sooraj",
     designation:"President",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619630049/samples/sooraj_wt8gop.jpg"
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619795404/samples/members/sooraj_gfppar.jpg"
 }];

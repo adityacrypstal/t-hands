@@ -158,3 +158,6 @@ button:focus{
 .navbar-nav li.active a{
     color:#02c0d9 !important;
 }
+.volunteer_area .owl-stage{
+    margin-bottom:10px;
+}
