@@ -10,10 +10,10 @@ const Footer = () => {
                             <h2>Thirikey</h2>
                             <p>Thirikey is an emerging organization formed and maintained by a bunch of batch mates of John Memorial High School Sasthamcotta (2007-2013) batch. In todays hectic world social responsibility is something we are ignorant of. </p>
                             <hr></hr>
-                            <p><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a><a href="#"><i
-                                className="fa fa-twitter" aria-hidden="true"></i></a><a href="#"><i
-                                className="fa fa-behance" aria-hidden="true"></i></a><a href="#"><i
-                                className="fa fa-dribbble" aria-hidden="true"></i></a></p>
+                            <p><a href="https://fb.com/T.hands.fb.in"><i className="fa fa-facebook" aria-hidden="true"></i></a><a href="#"><i
+                                className="fa fa-twitter" aria-hidden="true"></i></a><a href="https://thandsorg.blogspot.com/"><i
+                                className="fa fa-rss-square" aria-hidden="true"></i></a><a href="https://instagram.com/t_hands_"><i
+                                className="fa fa-instagram" aria-hidden="true"></i></a></p>
                         </div>
                     </div>
                     <div className="col-md-8">
@@ -23,20 +23,11 @@ const Footer = () => {
                                     <h3>RECENT POST</h3>
                                     <ul>
                                         <li><a href="#"><i
-                                            className="material-icons">keyboard_arrow_right</i> Consectetur
-                                            Adipisicing Elit</a></li>
+                                            className="material-icons">keyboard_arrow_right</i> Blood Donataion Camp</a></li>
                                         <li><a href="#"><i
-                                            className="material-icons">keyboard_arrow_right</i> Consectetur
-                                            Adipisicing </a></li>
+                                            className="material-icons">keyboard_arrow_right</i> Logo Inaguration </a></li>
                                         <li><a href="#"><i
-                                            className="material-icons">keyboard_arrow_right</i> Consectetur
-                                            Adipisicing Elit</a></li>
-                                        <li><a href="#"><i
-                                            className="material-icons">keyboard_arrow_right</i> Consectetur
-                                            Adipisicing</a></li>
-                                        <li><a href="#"><i
-                                            className="material-icons">keyboard_arrow_right</i> Consectetur
-                                            Adipisicing Elit</a></li>
+                                            className="material-icons">keyboard_arrow_right</i> Smart Phone Distribution</a></li>
                                     </ul>
                                 </div>
                             </div>

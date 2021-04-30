@@ -14,7 +14,7 @@ const ContactUs = () => {
 
                    <span><b>Website</b> : t-hands.org <br/></span>
 
-                   <span><b>Blog</b> : t-hands.blogspot.com  <br/></span>
+                   <span><b>Blog</b> : thandsorg.blogspot.com/  <br/></span>
 
                    <span><b>Facebook</b> :fb.com/T.hands.fb.in <br/></span>
 
