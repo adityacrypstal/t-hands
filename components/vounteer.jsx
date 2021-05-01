@@ -4,14 +4,15 @@ import {members} from "../data";
 const Vounteer = () => {
     return (
         <section className="volunteer_area">
-            <h2>Our Volunteer</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br></br> incididunt ut
-                labore et dolore magna aliqua.</p>
+            <h2>Our Volunteers</h2>
+            <p>We have a bunch of active volunteers, who are always dedicated to lead the team and provide maximum support for the
+                smooth running  <br/>of our organization.
+            </p>
             <div className="container">
                 <div className="row">
                     <div className="col-md-12">
                         <div className="volunteer_single owl-carousel owl-theme">
-                            {members.map((item)=>(
+                            {members.map((item) => (
                                 <div className="item">
                                     <img src={item?.image} alt=""/>
                                     <div className="text">

@@ -4,8 +4,10 @@ const Activity = () => {
     return (
         <section className="our_activity">
             <h2>OUR ACTIVITY</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor <br></br> incididunt ut
-                labore et dolore magna aliqua.</p>
+            <p>As an organization, we are trying at our best to help the society by providing better financial, medical
+                and <br></br>
+                educational support for those who are in need.
+            </p>
             <div className="container">
                 <div className="row">
                     <div className="col-md-4 col-xs-12">
@@ -14,8 +16,8 @@ const Activity = () => {
                                 <i className="material-icons">near_me</i>
                             </div>
                             <h2><a href="#">Fundraising</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                            <p>For the time being, we are not accepting any third party funds or donations. We have our
+                                own internal fundraising policies, which fuels smooth running of our organization.</p>
                         </div>
                     </div>
                     <div className="col-md-4 col-xs-12">
@@ -24,8 +26,8 @@ const Activity = () => {
                                 <i className="material-icons">favorite</i>
                             </div>
                             <h2><a href="#">Volunteering</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                            <p>We already have a bunch of active volunteers inside and outside our organization. Any interested
+                                individual can always volunteer our events or programs.</p>
                         </div>
                     </div>
                     <div className="col-md-4 col-xs-12">
@@ -34,8 +36,7 @@ const Activity = () => {
                                 <i className="material-icons">dashboard</i>
                             </div>
                             <h2><a href="#">Our Programs</a></h2>
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis </p>
+                            <p>We have already conducted a lot of non-profitable events by providing educational and financial support. We are consistently trying to conduct programs monthly. </p>
                         </div>
                     </div>
                 </div>

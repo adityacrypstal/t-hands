@@ -15,7 +15,7 @@ export default function Home() {
             <Header/>
             <Carousel/>
             <Activity/>
-            <Donate/>
+            {/*<Donate/>*/}
             <Upcomming/>
             <Vounteer/>
             <Counter/>
