@@ -18,10 +18,12 @@ const Vounteer = () => {
                                     <div className="text">
                                         <h3>{item?.name}</h3>
                                         <h6>{item?.designation}</h6>
-                                        <p>Lorem ipsum dolor sit amet, consectetur adipisi</p>
+                                        <p><i>{item?.about}</i></p>
+                                        <br/>
+
                                         <h5><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a><a
-                                            href="#"><i className="fa fa-twitter" aria-hidden="true"></i></a><a
-                                            href="#"><i className="fa fa-behance" aria-hidden="true"></i></a></h5>
+                                            href="#"><i className="fa fa-linkedin" aria-hidden="true"></i></a><a
+                                            href="#"><i className="fa fa-instagram" aria-hidden="true"></i></a></h5>
                                     </div>
                                 </div>
                             ))}

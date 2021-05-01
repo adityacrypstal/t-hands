@@ -9,39 +9,36 @@ const Upcomming = () => {
                 <div className="row">
                     <div className="col-md-4 col-xs-12">
                         <div className="events_single">
-                            <img src="img/events_single_one.jpg" alt=""/>
-                            <p><span className="event_left"><i className="material-icons">access_time</i>1:00 pm - 3:00 pm</span><span
+                            <img src="https://res.cloudinary.com/t-hands-org/image/upload/v1619885884/samples/news/checkup_zmiczx.jpg" alt=""/>
+                            <p><span className="event_left"><i className="material-icons">access_time</i>Soon</span><span
                                 className="event_right"><i
-                                className="material-icons">location_on</i>California Street</span>
+                                className="material-icons">location_on</i>Kollam</span>
                             </p>
                             <div className="clear"></div>
-                            <h3>Education For Children</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
+                            <h3>Health Checkups</h3>
+                            <h6>Regular health care checkups helps to identify and treat diseases quickly. We are planning to conduct free health checkup campaign somewhere in kollam district. </h6>
                         </div>
                     </div>
                     <div className="col-md-4 col-xs-12">
                         <div className="events_single">
-                            <img src="img/events_single_two.jpg" alt=""/>
-                            <p><span className="event_left"><i className="material-icons">access_time</i>1:00 pm - 3:00 pm</span><span
+                            <img src="https://res.cloudinary.com/t-hands-org/image/upload/v1619885884/samples/news/class_x2hfhw.jpg" alt=""/>
+                            <p><span className="event_left"><i className="material-icons">access_time</i>Soon</span><span
                                 className="event_right"><i
-                                className="material-icons">location_on</i>California Street</span>
+                                className="material-icons">location_on</i>Virtual</span>
                             </p>
-                            <h3>Education For Children</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
+                            <h3>Health Awareness Classes</h3>
+                            <h6>It's very important to give awareness on health even during tough times. So we are planning to conduct online sessions on health.</h6>
                         </div>
                     </div>
                     <div className="col-md-4 col-xs-12">
                         <div className="events_single">
-                            <img src="img/events_single_three.jpg" alt=""/>
-                            <p><span className="event_left"><i className="material-icons">access_time</i>1:00 pm - 3:00 pm</span><span
+                            <img src="https://res.cloudinary.com/t-hands-org/image/upload/v1619885884/samples/news/homeless_w1cdzd.jpg" alt=""/>
+                            <p><span className="event_left"><i className="material-icons">access_time</i>Soon</span><span
                                 className="event_right"><i
-                                className="material-icons">location_on</i>California Street</span>
+                                className="material-icons">location_on</i>Kollam</span>
                             </p>
-                            <h3>Education For Children</h3>
-                            <h6>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,</h6>
+                            <h3>Home for Homeless</h3>
+                            <h6>Still a lot of people are fighting hard to find a shelter in our country. Its possible for us to provide a shelter for atleast one homeless.</h6>
                         </div>
                     </div>
                 </div>

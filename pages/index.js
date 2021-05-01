@@ -18,7 +18,7 @@ export default function Home() {
             {/*<Donate/>*/}
             <Upcomming/>
             <Vounteer/>
-            <Counter/>
+            {/*<Counter/>*/}
             <News/>
             <Footer/>
 

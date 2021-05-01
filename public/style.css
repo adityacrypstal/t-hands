@@ -850,8 +850,9 @@ body{
     margin: 10px 0 0;
 }
 
+
 .volunteer_area .owl-theme .owl-nav {
-    margin: 65px 0 110px;
+    margin: 65px 0 0;
 }
 
 .volunteer_area .owl-theme .owl-nav [class*="owl-"] {
@@ -869,6 +870,9 @@ body{
 
 .volunteer_single {
     margin-top: 70px;
+}
+.volunteer_single .item .text h5{
+    padding-top: 3px;
 }
 
 .volunteer_area .owl-theme .owl-nav i {

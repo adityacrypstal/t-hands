@@ -10,55 +10,26 @@ const Carousel = () => {
                         <div className="client owl-carousel owl-theme">
                             <div className="item">
                                 <div className="text">
-                                    <h3>CHILDREN NEED YOUR HELP</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim <br></br> ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                        commodo</p>
+                                    <h3>“The best way to find yourself, is to lose yourself in the service of others.”</h3>
+                                    <p><i>-- Mahatma Gandhi</i></p>
                                     <h5 className="white-button"><a href="#">DONATE NOW</a></h5>
                                     <h5><a href="#">CONTACT US</a></h5>
                                 </div>
                             </div>
                             <div className="item">
                                 <div className="text">
-                                    <h3>CHILDREN NEED YOUR HELP</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim <br></br> ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                        commodo</p>
+                                    <h3>“Service to others is the rent you pay for your room here on earth.” </h3>
+                                    <p><i>-- Mohammed Ali</i></p>
+
                                     <h5 className="white-button"><a href="#">DONATE NOW</a></h5>
                                     <h5><a href="#">CONTACT US</a></h5>
                                 </div>
                             </div>
                             <div className="item">
                                 <div className="text">
-                                    <h3>CHILDREN NEED YOUR HELP</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim <br></br> ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                        commodo</p>
-                                    <h5 className="white-button"><a href="#">DONATE NOW</a></h5>
-                                    <h5><a href="#">CONTACT US</a></h5>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="text">
-                                    <h3>CHILDREN NEED YOUR HELP</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim <br></br> ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                        commodo</p>
-                                    <h5 className="white-button"><a href="#">DONATE NOW</a></h5>
-                                    <h5><a href="#">CONTACT US</a></h5>
-                                </div>
-                            </div>
-                            <div className="item">
-                                <div className="text">
-                                    <h3>CHILDREN NEED YOUR HELP</h3>
-                                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-                                        tempor incididunt ut labore et dolore magna aliqua. Ut enim <br></br> ad minim
-                                        veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea
-                                        commodo</p>
+                                    <h3>“No act of kindness, no matter how small, is ever wasted.” </h3>
+                                    <p><i>-- Aesop</i></p>
+
                                     <h5 className="white-button"><a href="#">DONATE NOW</a></h5>
                                     <h5><a href="#">CONTACT US</a></h5>
                                 </div>
