@@ -9,7 +9,7 @@ export const members = [{
     designation:"Joint Secretary",
     image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619796968/samples/members/meghanath_afhwqo.jpg",
     phone:"+91 9745921074",
-    about:"MBA in HR"
+    about:"Entrepreneur"
 },{
     name:"Salman",
     designation:"Vice President",
@@ -38,6 +38,6 @@ export const members = [{
     name:"Sooraj",
     designation:"Vice President",
     image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619796968/samples/members/sooraj_qgg1w7.jpg",
-    phone:"+91 9567682232",
+    phone:"+91 8547855122",
     about:"Artist"
 }];
