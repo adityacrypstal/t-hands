@@ -1,43 +1,43 @@
 export const members = [{
     name:"Parvathy J Anil",
     designation:"President",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619796968/samples/members/parvathy_favdo5.jpg",
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152155/samples/members/responsive/parvathy_ljeytb.jpg",
     phone:"+91 7994028598",
     about:"MBA in HR"
 },{
     name:"Meganath M S",
     designation:"Joint Secretary",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619796968/samples/members/meghanath_afhwqo.jpg",
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152155/samples/members/responsive/meghanath_burwxp.jpg",
     phone:"+91 9745921074",
     about:"Entrepreneur"
 },{
     name:"Salman",
     designation:"Vice President",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619796968/samples/members/salman_v1b0iy.jpg",
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152155/samples/members/responsive/salman_pq6bmv.jpg",
     phone:"+91 9745950655",
     about:"Web Developer"
 },{
     name:"Anand",
     designation:"Treasurer",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619796969/samples/members/anand_h54xmd.png",
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152155/samples/members/responsive/anand_tcqoxj.png",
     phone:"+91 9778198629",
     about:"Charted Accountant Inter"
 },{
     name:"Ashik Shanavas",
     designation:"Secretary",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619796968/samples/members/ashik_lrd4os.jpg",
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152155/samples/members/responsive/ashik_zahd4w.jpg",
     phone:"+91 7356810874",
     about:"Mechanical Engineer"
 },{
     name:"Ashik Bin Ismail",
     designation:"Joint Secretary",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619796968/samples/members/ashikbin_qkfwkb.jpg",
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152155/samples/members/responsive/ashik-ismail_o2v6mf.jpg",
     phone:"+91 9656291127",
     about:"Entrepreneur"
 },{
     name:"Sooraj B Krishnan",
     designation:"Vice President",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1619796968/samples/members/sooraj_qgg1w7.jpg",
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152155/samples/members/responsive/soorej_zxkjpm.jpg",
     phone:"+91 8547855122",
     about:"Artist"
 },{
@@ -180,18 +180,6 @@ export const members = [{
     about:""
 },{
     name:"Arunima",
-    designation:"",
-    image:"",
-    phone:"",
-    about:""
-},{
-    name:"Ashik Bin Ismail",
-    designation:"",
-    image:"",
-    phone:"",
-    about:""
-},{
-    name:"Ashik shanavas",
     designation:"",
     image:"",
     phone:"",
