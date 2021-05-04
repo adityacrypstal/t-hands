@@ -7,7 +7,7 @@ export const members = [{
 },{
     name:"Meganath M S",
     designation:"Joint Secretary",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152155/samples/members/responsive/meghanath_burwxp.jpg",
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152355/samples/members/responsive/meghanath_edzux9.jpg",
     phone:"+91 9745921074",
     about:"Entrepreneur"
 },{
