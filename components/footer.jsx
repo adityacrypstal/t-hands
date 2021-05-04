@@ -23,9 +23,9 @@ const Footer = () => {
                                     <h3>RECENT POST</h3>
                                     <ul>
                                         <li><a href="#"><i
-                                            className="material-icons">keyboard_arrow_right</i> Blood Donataion Camp</a></li>
+                                            className="material-icons">keyboard_arrow_right</i> Blood Donation Camp</a></li>
                                         <li><a href="#"><i
-                                            className="material-icons">keyboard_arrow_right</i> Logo Inaguration </a></li>
+                                            className="material-icons">keyboard_arrow_right</i> Logo Inauguration </a></li>
                                         <li><a href="#"><i
                                             className="material-icons">keyboard_arrow_right</i> Smart Phone Distribution</a></li>
                                     </ul>
