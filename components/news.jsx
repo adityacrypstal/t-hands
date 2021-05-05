@@ -37,7 +37,7 @@ const News = () => {
                             <div className="texts">
                                 <p className="date"><a href="#">17 April, 2021</a></p>
                                 <h3>Inauguration of T-hands Logo <br></br> T-Hands</h3>
-                                <p className="test">Inauguration of our T-hands logo and Thirikey logo with the presence of out beloved teachers and staff members of JMHS, Bharanikavu.</p>
+                                <p className="test">Inauguration of our T-hands logo and Thirikey logo with the presence of our beloved teachers and staff members of JMHS, Bharanikavu.</p>
                                 <h3><a href="#">READ MORE</a></h3>
                             </div>
                         </div>

@@ -26,12 +26,25 @@ const Members = () => {
 
                         <tbody>
                         <tr>
-                            <td colSpan={4}  className={'text-center'}><b>Committe Members</b></td>
+                            <td colSpan={4}  className={'text-center'}><b>Committee Members</b></td>
                         </tr>
-                        {members.map((member, i) => {
+                        {members.slice(0,7).map((member, i) => {
                             return (
                                 <tr>
                                     <th scope="row">{i + 1}</th>
+                                    <td>{member.name}</td>
+                                    <td>{member.designation}</td>
+                                    <td>{member.phone}</td>
+                                </tr>
+                            )
+                        })}
+                        <tr>
+                            <td colSpan={4}  className={'text-center'}><b>Volunteers</b></td>
+                        </tr>
+                        {members.slice(7).map((member, i) => {
+                            return (
+                                <tr>
+                                    <th scope="row">{i + 8}</th>
                                     <td>{member.name}</td>
                                     <td>{member.designation}</td>
                                     <td>{member.phone}</td>
