@@ -22,7 +22,7 @@ class MyDocument extends Document {
                     <meta property="og:title" content="T-Hands || Be The Change"/>
                     <meta property="og:description"
                           content="Thirikey is an emerging organization formed and maintained by a bunch of batch mates of John Memorial High School Sasthamcotta (2007-2013) batch."/>
-                    <meta property="og:image" content="https://ibb.co/wC5F9k9"/>
+                    <meta property="og:image" content="https://i.ibb.co/d68wdTd/apple-icon.png"/>
                     <meta property="og:url" content="http://t-hands.org"/>
                     <link rel="icon" href="/favicon.ico"/>
                     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
