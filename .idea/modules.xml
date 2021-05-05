@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$USER_HOME$/Downloads/charity-home-html/.idea/charity-home-html.iml" filepath="$USER_HOME$/Downloads/charity-home-html/.idea/charity-home-html.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/t-hands.iml" filepath="$PROJECT_DIR$/.idea/t-hands.iml" />
     </modules>
   </component>

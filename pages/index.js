@@ -1,25 +1,27 @@
-import Head from 'next/head'
-import styles from '../styles/Home.module.css'
-
+import React from "react";
+import Header from "../components/header";
+import Carousel from "../components/carousel";
+import Activity from "../components/activity";
+import Donate from "../components/donate";
+import dynamic from 'next/dynamic'
+import Counter from "../components/counter";
+import News from "../components/news";
+import Footer from "../components/footer";
+import Upcomming from "../components/upcomming";
+const Vounteer = dynamic(() => import("../components/vounteer"),{ ssr: false });
 export default function Home() {
-  return (
-    <div className={styles.container}>
-      <Head>
-        <title>T-hands || Team Thirike</title>
-        <link rel="icon" href="/favicon.ico" />
-      </Head>
+    return (
+        <div className="wrapper">
+            <Header/>
+            <Carousel/>
+            <Activity/>
+            {/*<Donate/>*/}
+            <Upcomming/>
+            <Vounteer/>
+            {/*<Counter/>*/}
+            <News/>
+            <Footer/>
 
-      <main className={styles.main}>
-        <h1 className={styles.title}>
-          Welcome to <a href="#">T-Hands</a>
-        </h1>
-
-        <p className={styles.description}>
-          Website Under Construction !
-        </p>
-
-      </main>
-
-    </div>
-  )
+        </div>
+    )
 }
