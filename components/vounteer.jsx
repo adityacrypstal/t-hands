@@ -12,7 +12,7 @@ const Vounteer = () => {
                 <div className="row">
                     <div className="col-md-12">
                         <div className="volunteer_single owl-carousel owl-theme">
-                            {members.splice(0,6).map((item) => (
+                            {members.splice(0,7).map((item) => (
                                 <div className="item">
                                     <img src={item?.image} alt=""/>
                                     <div className="text">
