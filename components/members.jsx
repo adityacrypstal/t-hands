@@ -38,19 +38,19 @@ const Members = () => {
                                 </tr>
                             )
                         })}
-                        <tr>
-                            <td colSpan={4}  className={'text-center'}><b>Volunteers</b></td>
-                        </tr>
-                        {members.slice(7).map((member, i) => {
-                            return (
-                                <tr>
-                                    <th scope="row">{i + 8}</th>
-                                    <td>{member.name}</td>
-                                    <td>{member.designation}</td>
-                                    <td>{member.phone}</td>
-                                </tr>
-                            )
-                        })}
+                        {/*<tr>*/}
+                        {/*    <td colSpan={4}  className={'text-center'}><b>Volunteers</b></td>*/}
+                        {/*</tr>*/}
+                        {/*{members.slice(7).map((member, i) => {*/}
+                        {/*    return (*/}
+                        {/*        <tr>*/}
+                        {/*            <th scope="row">{i + 8}</th>*/}
+                        {/*            <td>{member.name}</td>*/}
+                        {/*            <td>{member.designation}</td>*/}
+                        {/*            <td>{member.phone}</td>*/}
+                        {/*        </tr>*/}
+                        {/*    )*/}
+                        {/*})}*/}
                         </tbody>
                     </table>
                 </div>

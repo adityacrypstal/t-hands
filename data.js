@@ -5,17 +5,11 @@ export const members = [{
     phone:"+91 7994028598",
     about:"MBA in HR"
 },{
-    name:"Meganath M S",
-    designation:"Joint Secretary",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152355/samples/members/responsive/meghanath_edzux9.jpg",
-    phone:"+91 9745921074",
-    about:"Entrepreneur"
-},{
-    name:"Salman",
-    designation:"Vice President",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152155/samples/members/responsive/salman_pq6bmv.jpg",
-    phone:"+91 9745950655",
-    about:"Web Developer"
+    name:"Ashik Shanavas",
+    designation:"Secretary",
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152155/samples/members/responsive/ashik_zahd4w.jpg",
+    phone:"+91 7356810874",
+    about:"Mechanical Engineer"
 },{
     name:"Anand",
     designation:"Treasurer",
@@ -23,11 +17,17 @@ export const members = [{
     phone:"+91 9778198629",
     about:"Charted Accountant Inter"
 },{
-    name:"Ashik Shanavas",
-    designation:"Secretary",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152155/samples/members/responsive/ashik_zahd4w.jpg",
-    phone:"+91 7356810874",
-    about:"Mechanical Engineer"
+    name:"Salman",
+    designation:"Vice President",
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152155/samples/members/responsive/salman_pq6bmv.jpg",
+    phone:"+91 9745950655",
+    about:"Web Developer"
+},{
+    name:"Sooraj B Krishnan",
+    designation:"Vice President",
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152155/samples/members/responsive/soorej_zxkjpm.jpg",
+    phone:"+91 8547855122",
+    about:"Artist"
 },{
     name:"Ashik Bin Ismail",
     designation:"Joint Secretary",
@@ -35,11 +35,11 @@ export const members = [{
     phone:"+91 9656291127",
     about:"Entrepreneur"
 },{
-    name:"Sooraj B Krishnan",
-    designation:"Vice President",
-    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152155/samples/members/responsive/soorej_zxkjpm.jpg",
-    phone:"+91 8547855122",
-    about:"Artist"
+    name:"Meganath M S",
+    designation:"Joint Secretary",
+    image:"https://res.cloudinary.com/t-hands-org/image/upload/v1620152355/samples/members/responsive/meghanath_edzux9.jpg",
+    phone:"+91 9745921074",
+    about:"Entrepreneur"
 },{
     name:"Abhisekh",
     designation:"",
@@ -102,12 +102,6 @@ export const members = [{
     about:""
 },{
     name:"Amrutha",
-    designation:"",
-    image:"",
-    phone:"",
-    about:""
-},{
-    name:"Anand S",
     designation:"",
     image:"",
     phone:"",
@@ -330,12 +324,6 @@ export const members = [{
     about:""
 },{
     name:"Noora",
-    designation:"",
-    image:"",
-    phone:"",
-    about:""
-},{
-    name:"Noufal Nazar",
     designation:"",
     image:"",
     phone:"",
