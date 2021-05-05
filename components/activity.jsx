@@ -4,7 +4,7 @@ const Activity = () => {
     return (
         <section className="our_activity">
             <h2>OUR ACTIVITY</h2>
-            <p>As an organization, we are trying at our best to help the society by providing better financial, medical
+            <p>As an organization, we are trying at our best to help society by providing better financial, medical
                 and <br></br>
                 educational support for those who are in need.
             </p>
@@ -17,7 +17,7 @@ const Activity = () => {
                             </div>
                             <h2><a href="#">Fundraising</a></h2>
                             <p>For the time being, we are not accepting any third party funds or donations. We have our
-                                own internal fundraising policies, which fuels smooth running of our organization.</p>
+                                Own internal fundraising policies, which fuels smooth running of our organization.</p>
                         </div>
                     </div>
                     <div className="col-md-4 col-xs-12">
@@ -26,7 +26,7 @@ const Activity = () => {
                                 <i className="material-icons">favorite</i>
                             </div>
                             <h2><a href="#">Volunteering</a></h2>
-                            <p>We already have a bunch of active volunteers inside and outside our organization. Any interested
+                            <p>We already have a bunch of active volunteers in and outside for our organization. Any interested
                                 individual can always volunteer our events or programs.</p>
                         </div>
                     </div>

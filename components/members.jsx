@@ -9,8 +9,8 @@ const Members = () => {
             <div className={'center about-text'}>
                 <p className="text-center  col-md-10 ">T-hands is managed by a group of active members from
                         <b> Team Thirikey</b>. We, as a team, work together to achieve our goals.
-                For the time being ,we are running with members of closed group Thirikey. But anybody can volunteer our
-                upcoming or ongoing events, with an acknowledgement from our organization.</p>
+                For the time being, we are running with members of the closed group Thirikey. But anybody can volunteer our
+                upcoming or ongoing events, with an acknowledgment from our organization.</p>
             </div>
             <div className="row table-row">
                 <div className="col-md-10">
@@ -23,7 +23,11 @@ const Members = () => {
                             <th scope="col">Contact</th>
                         </tr>
                         </thead>
+
                         <tbody>
+                        <tr>
+                            <td colSpan={4}  className={'text-center'}><b>Committe Members</b></td>
+                        </tr>
                         {members.map((member, i) => {
                             return (
                                 <tr>

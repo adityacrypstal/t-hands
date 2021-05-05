@@ -8,7 +8,7 @@ const Footer = () => {
                     <div className="col-md-4 col-sm-12">
                         <div className="footer-charity-text">
                             <h2>Thirikey</h2>
-                            <p>Thirikey is an emerging organization formed and maintained by a bunch of batch mates of John Memorial High School Sasthamcotta (2007-2013) batch. In todays hectic world social responsibility is something we are ignorant of. </p>
+                            <p>Thirikey is an emerging organization formed and maintained by a bunch of batch mates of John Memorial High School Sasthamcotta (2007-2013) batch. In today's hectic world social responsibility is something we are ignorant of. </p>
                             <hr></hr>
                             <p><a href="https://fb.com/T.hands.fb.in"><i className="fa fa-facebook" aria-hidden="true"></i></a><a href="#"><i
                                 className="fa fa-twitter" aria-hidden="true"></i></a><a href="https://thandsorg.blogspot.com/"><i

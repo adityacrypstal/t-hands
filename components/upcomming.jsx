@@ -16,7 +16,7 @@ const Upcomming = () => {
                             </p>
                             <div className="clear"></div>
                             <h3>Health Checkups</h3>
-                            <h6>Regular health care checkups helps to identify and treat diseases quickly. We are planning to conduct free health checkup campaign somewhere in kollam district. </h6>
+                            <h6>Regular health care checkups help to identify and treat diseases quickly. We are planning to conduct free health checkup campaign somewhere in the Kollam district. </h6>
                         </div>
                     </div>
                     <div className="col-md-4 col-xs-12">
@@ -38,7 +38,7 @@ const Upcomming = () => {
                                 className="material-icons">location_on</i>Kollam</span>
                             </p>
                             <h3>Home for Homeless</h3>
-                            <h6>Still a lot of people are fighting hard to find a shelter in our country. Its possible for us to provide a shelter for atleast one homeless.</h6>
+                            <h6>Still, a lot of people are fighting hard to find shelter in our country. It is possible for us to provide shelter for at least one homeless.</h6>
                         </div>
                     </div>
                 </div>
