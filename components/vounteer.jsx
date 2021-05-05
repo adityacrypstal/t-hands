@@ -18,7 +18,7 @@ const Vounteer = () => {
                                     <div className="text">
                                         <h3>{item?.name}</h3>
                                         <h6>{item?.designation}</h6>
-                                        <p><i>{item?.about}</i></p>
+                                        <p className={'designation'}><i>{item?.about}</i></p>
                                         <br/>
 
                                         <h5><a href="#"><i className="fa fa-facebook" aria-hidden="true"></i></a><a

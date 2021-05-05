@@ -200,4 +200,7 @@
     .owl-item .item .text p{
        text-align: right;
     }
+    .designation{
+        text-align:left !important;
+    }
 }
