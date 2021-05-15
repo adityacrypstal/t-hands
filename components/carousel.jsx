@@ -27,7 +27,7 @@ const Carousel = () => {
                             </div>
                             <div className="item">
                                 <div className="text">
-                                    <h3>“No act of kindness, no matter how small, is ever wasted.” </h3>
+                                    <h3>“No act of kindness, no matter how small, is ever wasted.new test” </h3>
                                     <p><i>-- Aesop</i></p>
 
                                     <h5 className="white-button"><a href="#">DONATE NOW</a></h5>
