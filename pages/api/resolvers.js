@@ -2,7 +2,6 @@ import {User} from '../../models/Users';
 export const resolvers = {
     Query: {
         getUser: (_parent, _args, _context) => {
-            console.log(_args);
             let user = User.findOne({_id:_args._id});
             return user
         }
@@ -16,7 +15,6 @@ export const resolvers = {
             });
             return userObj.save()
                 .then (result => {
-                    console.log(result);
                     return { ...result._doc }
                 })
                 .catch (err => {

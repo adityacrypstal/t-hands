@@ -13,10 +13,10 @@ app.prepare().then(() => {
         .connect(`mongodb+srv://t-handsbkv:adminthands@cluster0.hv2w9.mongodb.net/t-hands?retryWrites=true&w=majority`)
         .then( () => {
             const server = express();
+            server.get('/graph',(req,res)=>res.send("test"))
             server.all('*', (req, res) => {
                 return handle(req, res)
-            });
-
+            })
             server.listen(port, (err) => {
                 if (err) throw err;
                 console.log(`> Ready on http://localhost:${port}`)

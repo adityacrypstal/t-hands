@@ -4,12 +4,12 @@ export const typeDefs = gql`
 type User{
 name:String!,
 email:String!,
-_id:String!
+_id:String
 }
 type Query {
     getUser(_id:String!):User
 }
 type Mutation {
-    addUsers(name:String!, email:String!):User!
+    addUsers(name:String!, email:String!):User
 }
 `;
