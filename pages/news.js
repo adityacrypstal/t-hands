@@ -2,24 +2,32 @@ import React from 'react';
 import Header from "../components/header";
 import HeaderImage from "../components/HeaderImage";
 import Footer from "../components/footer";
-import  MemberData from'../components/members'
 import JoinUs from "../components/join-us";
-import {ApolloProvider} from "@apollo/client";
-import client from "./apollo-client";
-const Members = () => {
-    return (
+import NewsList from "../components/NewsList";
+import client from './apollo-client';
+import {GET_NEWS} from "../queries/news.query";
+const Members = ({data}) => {
+;    return (
         <>
-            <ApolloProvider client={client}>
-        <div className="wrapper">
+            <div className="wrapper">
                 <Header/>
                 <HeaderImage/>
                 <JoinUs text={"Join your hand with us for a better life and beautiful future."} button={"Join"}/>
-                <MemberData/>
+                <NewsList posts = {data.posts||[]}/>
                 <Footer/>
             </div>
-            </ApolloProvider>
         </>
     );
 };
+export async function getStaticProps() {
+    const { data } = await client.query({
+        query:GET_NEWS,
+    });
 
+    return {
+        props: {
+           data
+        },
+    };
+}
 export default Members;

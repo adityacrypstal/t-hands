@@ -1,7 +1,11 @@
 import React from 'react';
 import {members} from "../data";
+import {useQuery} from "@apollo/client";
+import {GET_COMMITTEE_MEMBERS} from "../queries/members.query";
 
 const Members = () => {
+    const { loading, error, data } = useQuery(GET_COMMITTEE_MEMBERS);
+
     return (
         <div className={"members-container container"}>
             <h2 className={"text-center hr"}>Our Members</h2>
@@ -28,12 +32,12 @@ const Members = () => {
                         <tr>
                             <td colSpan={4}  className={'text-center'}><b>Committee Members</b></td>
                         </tr>
-                        {members.slice(0,7).map((member, i) => {
+                        {data?.members.map((member, i) => {
                             return (
                                 <tr>
                                     <th scope="row">{i + 1}</th>
                                     <td>{member.name}</td>
-                                    <td>{member.designation}</td>
+                                    <td>{member.role}</td>
                                     <td>{member.phone}</td>
                                 </tr>
                             )
