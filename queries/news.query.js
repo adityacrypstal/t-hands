@@ -45,6 +45,7 @@ query getNewsBySlug($slug:String!) {
     createdAt
     title
     tags
+    excerpt
     coverImage {
       url
     }

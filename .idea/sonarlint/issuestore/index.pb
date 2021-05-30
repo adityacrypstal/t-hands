@@ -90,15 +90,9 @@ H
 components/upcomming.jsx,3/2/32f3bb3dac487c4f62e45fd44dd1c781aa7ea841
 7
 data.js,2/b/2b957591659b9aa90522ddfd92f6b5d0968eb2d8
-B
-pages/api/types.js,9/9/994703e816f45972ee80c5bd7673f0bfbc49940b
-F
-pages/api/resolvers.js,9/8/98c85f09b27db30416bd273ba67a8c9a03c8dea6
-D
-pages/api/graphql.js,f/5/f58b3e8bed082f59af3dde3248fe47fb426c5f5f
 4
 .env,3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
 ?
 models/Users.js,e/a/ea037ce44fef0694cd28f55e35a0cf5ca310bf68
-9
-	server.js,d/c/dc60ea9ee1ff6246bf342463277d5b914db2883d
+A
+package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47

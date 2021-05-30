@@ -22,7 +22,7 @@ const Header = ({path}) => {
                         </div>
                         <div className="col-md-4 col-sm-4">
                             <div className="join-us">
-                                <p><a href="#">JOIN US NOW</a></p>
+                                <p><a href="/register">JOIN US NOW</a></p>
                             </div>
                         </div>
                     </div>

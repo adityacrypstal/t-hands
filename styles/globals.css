@@ -210,3 +210,9 @@ button:focus{
 .i-frame-container{
     margin:5px auto;display:flex;justify-content: center;align-items: center;
 }
+.letast_news h2{
+    margin: 60px auto 50px !important;
+}
+.share-buttons button{
+    padding:0px 5px !important;
+}

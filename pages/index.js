@@ -8,7 +8,7 @@ import Counter from "../components/counter";
 import News from "../components/news";
 import Footer from "../components/footer";
 import Upcomming from "../components/upcomming";
-import client from "../pages/apollo-client";
+import client from "../pages/client";
 import {ApolloProvider} from "@apollo/client";
 const Vounteer = dynamic(() => import("../components/vounteer"),{ ssr: false });
 export default function Home() {

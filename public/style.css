@@ -286,7 +286,7 @@ body{
 }
 
 .our_activity .single-Promo h2::before {
-    background: #000 none repeat scroll 0 0;
+    background: #02c0d9 none repeat scroll 0 0;
     bottom: -5px;
     content: "";
     height: 2px;
@@ -300,7 +300,7 @@ body{
     /*font-family: "Roboto", sans-serif;*/
     font-size: 22px;
     font-weight: 500;
-    color: #3c354e;
+    color: #02c0d9;
 }
 
 .our_activity .single-Promo p {
@@ -319,7 +319,8 @@ body{
     font-size: 30px;
     padding: 25px;
     text-align: center;
-    background: #fff;
+    background: #02c0d9;
+    color:white;
 }
 
 .our_activity .single-Promo:hover > h2 a {
