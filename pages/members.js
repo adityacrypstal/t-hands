@@ -5,7 +5,7 @@ import Footer from "../components/footer";
 import  MemberData from'../components/members'
 import JoinUs from "../components/join-us";
 import {ApolloProvider} from "@apollo/client";
-import client from "./client";
+import client from "../client";
 const Members = () => {
     return (
         <>

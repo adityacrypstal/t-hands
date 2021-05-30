@@ -4,7 +4,7 @@ import HeaderImage from "../components/HeaderImage";
 import AboutUs from "../components/about-us";
 import Footer from "../components/footer";
 import JoinUs from "../components/join-us";
-import client from "./client";
+import client from "../client";
 import {ApolloProvider} from "@apollo/client";
 
 const About = () => {

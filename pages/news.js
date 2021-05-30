@@ -4,7 +4,7 @@ import HeaderImage from "../components/HeaderImage";
 import Footer from "../components/footer";
 import JoinUs from "../components/join-us";
 import NewsList from "../components/NewsList";
-import client from './client';
+import client from '../client';
 import {GET_NEWS} from "../queries/news.query";
 import {ApolloProvider} from "@apollo/client";
 const Members = ({data}) => {

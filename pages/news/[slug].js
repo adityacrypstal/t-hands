@@ -4,7 +4,7 @@ import { NextSeo } from 'next-seo';
 import JoinUs from "../../components/join-us";
 import NewsContent from "../../components/NewsContent";
 import Footer from "../../components/footer";
-import client from "../client";
+import client from "../../client";
 import {GET_NEWS_BY_SLUG} from "../../queries/news.query";
 import {ApolloProvider} from "@apollo/client";
 import {useRouter} from "next/router";
