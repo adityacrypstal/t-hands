@@ -76,7 +76,9 @@ $(window).on('load', function() {
                 }
             },
         });
-        owlInit();
+       setTimeout(()=>{
+           owlInit();
+       },1000)
         $('.donors_featured').owlCarousel({
             loop: true,
             margin: 10,

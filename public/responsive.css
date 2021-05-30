@@ -26,6 +26,17 @@
         width:70%;
         height:400px;
     }
+    .news-container{
+        padding-left:150px;
+        padding-right:150px;
+        margin-bottom:100px;
+    }
+    .img-container{
+        height:500px;
+    }
+    .profile-img{
+        width:160px;
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -77,6 +88,17 @@
     .contact-us{
         width:auto;
         height:auto;
+    }
+    .news-container{
+        padding-left:150px;
+        padding-right:150px;
+        margin-bottom:100px;
+    }
+    .img-container{
+        height:500px;
+    }
+    .profile-img{
+        width:160px;
     }
 }
 
@@ -202,5 +224,19 @@
     }
     .designation{
         text-align:left !important;
+    }
+    .news-container{
+        padding-left:10px;
+        padding-right:10px;
+        margin-bottom:100px;
+    }
+    .img-container{
+        height:200px;
+    }
+    .profile-img{
+        width:250px;
+    }
+    .volunteer_single .item{
+        display: flex;
     }
 }

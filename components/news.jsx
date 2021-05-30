@@ -19,7 +19,8 @@ const News = () => {
                                     <img src={post.coverImage?.url} alt=""/>
                                     <div className="texts">
                                         <p className="date"><a href="#">{moment(post.createdAt).format('DD MMM YYYY')}</a></p>
-                                        <h3>{post.title}<br></br><i className={'opacity-6'}>{post?.tags?.map(i=>'#'+i)}</i></h3>
+                                        <h3>{post.title}</h3>
+                                        <i className={'opacity-6'}>{post?.tags?.map(i=>'#'+i)}</i>
                                         <p className="test" >{post.excerpt}</p>
                                         <h3><a href={`/news/${post.slug}`}>READ MORE</a></h3>
                                     </div>
