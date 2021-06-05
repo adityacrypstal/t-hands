@@ -161,3 +161,12 @@ button:focus{
 .volunteer_area .owl-stage{
     margin-bottom:10px;
 }
+.env-image{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    height:auto;
+}
+.env-image img{
+    width:60%;
+}

@@ -8,6 +8,7 @@ import Counter from "../components/counter";
 import News from "../components/news";
 import Footer from "../components/footer";
 import Upcomming from "../components/upcomming";
+import EnvironmentDay from "../components/EnvironmentDay"
 const Vounteer = dynamic(() => import("../components/vounteer"),{ ssr: false });
 export default function Home() {
     return (
@@ -15,6 +16,7 @@ export default function Home() {
             <Header/>
             <Carousel/>
             <Activity/>
+            <EnvironmentDay/>
             {/*<Donate/>*/}
             <Upcomming/>
             <Vounteer/>
