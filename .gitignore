@@ -1,4 +1,4 @@
-# Logs
+git # Logs
 logs
 *.log
 npm-debug.log*
@@ -102,3 +102,17 @@ dist
 
 # TernJS port file
 .tern-port
+/.idea/sonarlint/issuestore/2/0/202812cedbed29fdf712361f0e7a919932f9e751
+/.idea/sonarlint/issuestore/7/0/7030d0b2f71b999ff89a343de08c414af32fc93a
+/.idea/sonarlint/issuestore/5/1/51c02587ea6265b5bfced540c2c2ab532da21f1f
+/.idea/sonarlint/issuestore/6/1/61b43e101a13fa3ad046ed800804c5a567fc3e6b
+/.idea/sonarlint/issuestore/c/1/c10e01865206f85032cf6199469b72569251c7f8
+/.idea/sonarlint/issuestore/1/7/17f8c719689e4f3221289153187a6ca1fb24dd87
+/.idea/sonarlint/issuestore/e/7/e7c4808a8fa3ab0bbb17e5cc5e39248f424692b5
+/.idea/sonarlint/issuestore/a/9/a92d97b2f2beface56d073ed091c9f703eb241b1
+/.idea/sonarlint/issuestore/a/d/adcada534159b893778ddd14e4969a871a3552ad
+/.idea/sonarlint/issuestore/3/c/3c84dcdc6bbe3d7817c49dcdc327b926fea1808a
+/.idea/sonarlint/issuestore/8/c/8c258232cbcd5d83991c524a9e86c8d3f984fc57
+/.idea/sonarlint/issuestore/f/6/f6d26d7846b1def42d3c4020b6995a5da417b648
+/.idea/sonarlint/issuestore/f/a/fa288d1472d29beccb489a676f68739ad365fc47
+/test.patch

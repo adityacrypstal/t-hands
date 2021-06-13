@@ -14,7 +14,7 @@ const NewsList = ({posts}) => {
                             <div className="texts">
                                 <p className="date"><a href="#">{moment(post.createdAt).format('DD MMM YYYY')}</a></p>
                                 <h3>{post.title}</h3><i className={'opacity-6'}>{post?.tags?.map(i=>'#'+i)}</i>
-                                <p className="test" >{post.excerpt}</p>
+                                <p className="test" >{post.excerpt.substring(0,130)}{post.excerpt.length>130&&'...'}</p>
                                 <h3><a href={`/news/${post.slug}`}>READ MORE</a></h3>
                             </div>
                         </div>

@@ -18,7 +18,7 @@ query getNews {
 }`;
 export const GET_NEWS_TOP =  gql`
 query getNews {
-  posts(last:3) {
+  posts(orderBy: date_DESC,first:3) {
     content {
       raw
     }

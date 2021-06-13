@@ -211,3 +211,10 @@ button:focus{
     padding:0px 5px !important;
 }
 
+.news-img{
+    height:200px;
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
