@@ -96,3 +96,9 @@ H
 models/Users.js,e/a/ea037ce44fef0694cd28f55e35a0cf5ca310bf68
 A
 package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
+J
+components/NewsContent.jsx,7/b/7ba3c4cb5e7f1c865d0fa6fe03a65237340a415e
+E
+queries/news.query.js,2/4/246948ab843e39983e9aca06646b0de944e750f8
+G
+components/NewsList.jsx,8/4/84f0d3f2fcc874b2b0d9e6ad9bf242f3b70291a8
