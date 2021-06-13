@@ -161,12 +161,60 @@ button:focus{
 .volunteer_area .owl-stage{
     margin-bottom:10px;
 }
-.env-image{
+.opacity-6{
+    opacity:0.6
+}
+.news-list{
     display: flex;
     flex-direction: row;
-    justify-content: center;
-    height:auto;
+    flex-wrap: wrap;
 }
-.env-image img{
-    width:60%;
+.news-list .single_news{
+    margin-bottom: 30px;
+    margin-top: 50px;
+}
+
+.img-container{
+    width:100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    margin:30px 0px;
+}
+.news-details{
+    margin: 15px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.news-content{
+    margin-top:10px;
+    font-size:20px;
+    line-height: 32px;
+}
+.profile-img{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    float: left;
+    height: 175px;
+    box-shadow: 0px 2px 10px 0px rgb(0 0 0 / 15%) !important;
+    border-radius: 5px 0px 0px 5px
+}
+.i-frame-container{
+    margin:5px auto;display:flex;justify-content: center;align-items: center;
+}
+.letast_news h2{
+    margin: 60px auto 50px !important;
+}
+.share-buttons button{
+    padding:0px 5px !important;
+}
+
+.news-img{
+    height:200px;
+    border-radius: 10px 10px 0 0;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
 }

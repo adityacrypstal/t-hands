@@ -96,21 +96,9 @@ H
 models/Users.js,e/a/ea037ce44fef0694cd28f55e35a0cf5ca310bf68
 A
 package-lock.json,f/a/fa288d1472d29beccb489a676f68739ad365fc47
-G
-queries/events.query.js,d/2/d247a4387cb9e26f4c46c908452253822ba3bad2
 J
 components/NewsContent.jsx,7/b/7ba3c4cb5e7f1c865d0fa6fe03a65237340a415e
 E
 queries/news.query.js,2/4/246948ab843e39983e9aca06646b0de944e750f8
-D
-pages/news/[slug].js,1/a/1aaa99a4c13441503475d4af9d5daa7d3719746f
-A
-pages/register.js,e/8/e83c6a96fd4fbdbe00eaa97fff81f79b87e704f3
-9
-	client.js,f/b/fbd844f2d1c643ba8e59c888a2351574bea723e3
-=
-pages/news.js,2/b/2bd8eb1e8efeba16b022175c1587fea56e480d4f
-H
-queries/members.query.js,1/1/11feb0f2463a9ca27f7371eacbb87258d2754b5f
 G
 components/NewsList.jsx,8/4/84f0d3f2fcc874b2b0d9e6ad9bf242f3b70291a8

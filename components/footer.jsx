@@ -1,6 +1,10 @@
 import React from 'react';
+import {useQuery} from "@apollo/client";
+import {GET_NEWS_TOP} from "../queries/news.query";
 
 const Footer = () => {
+    const { loading, error, data } = useQuery(GET_NEWS_TOP);
+
     return (
         <footer className="footer">
             <div className="container">
@@ -22,12 +26,10 @@ const Footer = () => {
                                 <div className="footer-text one">
                                     <h3>RECENT POST</h3>
                                     <ul>
-                                        <li><a href="#"><i
-                                            className="material-icons">keyboard_arrow_right</i> Blood Donation Camp</a></li>
-                                        <li><a href="#"><i
-                                            className="material-icons">keyboard_arrow_right</i> Logo Inauguration </a></li>
-                                        <li><a href="#"><i
-                                            className="material-icons">keyboard_arrow_right</i> Smart Phone Distribution</a></li>
+                                        {data?.posts.map(i=>(
+                                            <li><a href={`/news/${i.slug}`}><i
+                                                className="material-icons">keyboard_arrow_right</i> {i.title}</a></li>
+                                        ))}
                                     </ul>
                                 </div>
                             </div>

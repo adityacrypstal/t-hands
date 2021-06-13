@@ -1,3 +1,39 @@
+
+function owlInit(){
+    $('.volunteer_single').owlCarousel({
+        loop: true,
+        margin: 10,
+        nav: true,
+        items: 3,
+        autoplayTimeout: 6000,
+        autoplay: true,
+        navText: [
+            "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>",
+            "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"],
+        responsive: {
+            1400: {
+                items: 3,
+                nav: true,
+                loop: true
+            },
+            768: {
+                items: 2,
+                nav: true,
+                loop: true
+            },
+            500: {
+                items: 2,
+                nav: true,
+                loop: true
+            },
+            0: {
+                items: 1,
+                nav: true,
+                loop: true
+            }
+        },
+    });
+}
 $(window).on('load', function() {
     $('#counter-block').ready(function () {
         $('.client').owlCarousel({
@@ -40,7 +76,9 @@ $(window).on('load', function() {
                 }
             },
         });
-
+       setTimeout(()=>{
+           owlInit();
+       },1000)
         $('.donors_featured').owlCarousel({
             loop: true,
             margin: 10,
@@ -52,41 +90,6 @@ $(window).on('load', function() {
                 "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>",
                 "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"],
         });
-
-        $('.volunteer_single').owlCarousel({
-            loop: true,
-            margin: 10,
-            nav: true,
-            items: 3,
-            autoplayTimeout: 6000,
-            autoplay: true,
-            navText: [
-                "<i class=\"fa fa-angle-left\" aria-hidden=\"true\"></i>",
-                "<i class=\"fa fa-angle-right\" aria-hidden=\"true\"></i>"],
-            responsive: {
-                1400: {
-                    items: 3,
-                    nav: true,
-                    loop: true
-                },
-                768: {
-                    items: 2,
-                    nav: true,
-                    loop: true
-                },
-                500: {
-                    items: 2,
-                    nav: true,
-                    loop: true
-                },
-                0: {
-                    items: 1,
-                    nav: true,
-                    loop: true
-                }
-            },
-        });
-
         $('.carosal_bottom_single').owlCarousel({
             loop: true,
             margin: 10,

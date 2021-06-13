@@ -1,7 +1,11 @@
 import React from 'react';
 import {members} from "../data";
+import {useQuery} from "@apollo/client";
+import {GET_ALL_MEMBERS} from "../queries/members.query";
 
 const Members = () => {
+    const { loading, error, data } = useQuery(GET_ALL_MEMBERS);
+
     return (
         <div className={"members-container container"}>
             <h2 className={"text-center hr"}>Our Members</h2>
@@ -17,7 +21,7 @@ const Members = () => {
                     <table className="table table-bordered table-hover table-striped">
                         <thead>
                         <tr>
-                            <th scope="col">id</th>
+                            <th scope="col">Membership id</th>
                             <th scope="col">Name</th>
                             <th scope="col">Designation</th>
                             <th scope="col">Contact</th>
@@ -28,29 +32,29 @@ const Members = () => {
                         <tr>
                             <td colSpan={4}  className={'text-center'}><b>Committee Members</b></td>
                         </tr>
-                        {members.slice(0,7).map((member, i) => {
+                        {data?.members.filter(i=>i.committeeMember).map((member, i) => {
                             return (
                                 <tr>
-                                    <th scope="row">{i + 1}</th>
+                                    <th scope="row">{member.membershipId}</th>
                                     <td>{member.name}</td>
-                                    <td>{member.designation}</td>
+                                    <td>{member.role}</td>
                                     <td>{member.phone}</td>
                                 </tr>
                             )
                         })}
-                        {/*<tr>*/}
-                        {/*    <td colSpan={4}  className={'text-center'}><b>Volunteers</b></td>*/}
-                        {/*</tr>*/}
-                        {/*{members.slice(7).map((member, i) => {*/}
-                        {/*    return (*/}
-                        {/*        <tr>*/}
-                        {/*            <th scope="row">{i + 8}</th>*/}
-                        {/*            <td>{member.name}</td>*/}
-                        {/*            <td>{member.designation}</td>*/}
-                        {/*            <td>{member.phone}</td>*/}
-                        {/*        </tr>*/}
-                        {/*    )*/}
-                        {/*})}*/}
+                        <tr>
+                            <td colSpan={4}  className={'text-center'}><b>Volunteers</b></td>
+                        </tr>
+                        {data?.members.filter(i=>!i.committeeMember).map((member, i) => {
+                            return (
+                                <tr>
+                                    <th scope="row">{member.membershipId}</th>
+                                    <td>{member.name}</td>
+                                    <td>{member.role}</td>
+                                    <td>{member.phone}</td>
+                                </tr>
+                            )
+                        })}
                         </tbody>
                     </table>
                 </div>

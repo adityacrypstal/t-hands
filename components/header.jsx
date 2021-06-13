@@ -22,7 +22,7 @@ const Header = ({path}) => {
                         </div>
                         <div className="col-md-4 col-sm-4">
                             <div className="join-us">
-                                <p><a href="#">JOIN US NOW</a></p>
+                                <p><a href="/register">JOIN US NOW</a></p>
                             </div>
                         </div>
                     </div>
@@ -34,7 +34,7 @@ const Header = ({path}) => {
                         <div className="col-md-5 col-sm-12 col-xs-12">
                             <a href="#">
                                 <div className="main-logo">
-                                    <img src="img/t-hands-logo.png" alt="" />
+                                    <img src="/img/t-hands-logo.png" alt="" />
                                     <h2>T-Hands</h2>
                                 </div>
                             </a>
@@ -45,6 +45,7 @@ const Header = ({path}) => {
                                     <li className={router.asPath==="/"?"active":""}><a href="/">HOME</a></li>
                                     <li className={router.asPath==="/about"?"active":""}><a href="/about" >ABOUT US</a></li>
                                     <li className={router.asPath==="/members"?"active":""}><a href="/members" >MEMBERS</a></li>
+                                    <li className={router.asPath==="/news"?"active":""}><a href="/news" >NEWS</a></li>
                                     <li><a href="https://thandsorg.blogspot.com/" target={"_blank"}>BLOG</a></li>
                                     <li className={router.asPath==="/contact"?"active":""}><a href="/contact" >CONTACT</a></li>
                                 </ul>

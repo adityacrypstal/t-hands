@@ -8,22 +8,22 @@ import Counter from "../components/counter";
 import News from "../components/news";
 import Footer from "../components/footer";
 import Upcomming from "../components/upcomming";
-import EnvironmentDay from "../components/EnvironmentDay"
+import client from "../client";
+import {ApolloProvider} from "@apollo/client";
 const Vounteer = dynamic(() => import("../components/vounteer"),{ ssr: false });
 export default function Home() {
-    return (
-        <div className="wrapper">
+    return ( <div className="wrapper">
+        <ApolloProvider client={client}>
             <Header/>
             <Carousel/>
             <Activity/>
-            <EnvironmentDay/>
             {/*<Donate/>*/}
             <Upcomming/>
             <Vounteer/>
             {/*<Counter/>*/}
             <News/>
             <Footer/>
-
-        </div>
+        </ApolloProvider >
+    </div>
     )
 }
