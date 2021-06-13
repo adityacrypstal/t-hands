@@ -20,7 +20,7 @@ const NewsPage = ({data}) => {
                 <Header/>
                 <NextSeo title={post.title}
                          description={post.excerpt}
-                         canonical={url}
+                         canonical={'https://t-hands.vercel.app'}
                          openGraph={{
                              url,
                              title: post.title,
