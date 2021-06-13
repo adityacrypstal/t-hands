@@ -11,7 +11,7 @@ import {useRouter} from "next/router";
 
 const NewsPage = ({data}) => {
     const router = useRouter();
-    const baseURL = "https://t-hands.org/"
+    const baseURL = "https://t-hands.org"
     const url = baseURL+router.asPath;
     const {post={}}= data;
     return (
