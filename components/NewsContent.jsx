@@ -17,7 +17,7 @@ const NewsContent = ({post,url}) => {
     const router = useRouter();
     return (
         <div className={'container news-container'}>
-            <h1>{post.title}</h1>
+            <h1 className={'news-header'}>{post.title}</h1>
             <div className="news-details">
                 <span>Posted at <b>{moment(post.createdAt).format('DD MMM YYYY')}, Kollam</b></span>
                 <span>Posted by <b>{post.author.name}</b></span>

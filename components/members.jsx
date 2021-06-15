@@ -24,7 +24,6 @@ const Members = () => {
                             <th scope="col">Membership id</th>
                             <th scope="col">Name</th>
                             <th scope="col">Designation</th>
-                            <th scope="col">Contact</th>
                         </tr>
                         </thead>
 
@@ -38,7 +37,6 @@ const Members = () => {
                                     <th scope="row">{member.membershipId}</th>
                                     <td>{member.name}</td>
                                     <td>{member.role}</td>
-                                    <td>{member.phone}</td>
                                 </tr>
                             )
                         })}
@@ -51,7 +49,6 @@ const Members = () => {
                                     <th scope="row">{member.membershipId}</th>
                                     <td>{member.name}</td>
                                     <td>{member.role}</td>
-                                    <td>{member.phone}</td>
                                 </tr>
                             )
                         })}

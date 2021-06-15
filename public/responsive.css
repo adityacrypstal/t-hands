@@ -37,6 +37,12 @@
     .profile-img{
         width:160px;
     }
+    .news-header{
+        font-size:36px !important;
+    }
+    .news-content{
+        font-size:20px
+    }
 }
 
 @media (min-width: 768px) and (max-width: 991px) {
@@ -99,6 +105,12 @@
     }
     .profile-img{
         width:160px;
+    }
+    .news-headerr{
+        font-size:30px;
+    }
+    .news-content{
+        font-size:18px;
     }
 }
 
@@ -238,5 +250,11 @@
     }
     .volunteer_single .item{
         display: flex;
+    }
+    .news-header{
+        font-size:25px !important;
+    }
+    .news-content{
+        font-size:16px;
     }
 }
