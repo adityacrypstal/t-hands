@@ -11,7 +11,7 @@ import {useRouter} from "next/router";
 
 const NewsPage = ({data}) => {
     const router = useRouter();
-    const baseURL = "https://t-hands.org"
+    const baseURL = "https://t-hands.org";
     const url = baseURL+router.asPath;
     const {post={}}= data;
     return (
@@ -20,7 +20,7 @@ const NewsPage = ({data}) => {
                 <Header/>
                 <NextSeo title={post.title}
                          description={post.excerpt}
-                         canonical={url}
+                         canonical={baseURL}
                          openGraph={{
                              url,
                              title: post.title,
@@ -28,7 +28,7 @@ const NewsPage = ({data}) => {
                              images: [
                                  { url:post.coverImage?.url}
                              ],
-                             site_name:baseURL,
+                             site_name:"T-Hands",
                          }}/>
                 <JoinUs text={"Join your hand with us for a better life and beautiful future."} button={"Join"}/>
                 <NewsContent post={post} url={url}/>
