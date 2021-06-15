@@ -26,7 +26,7 @@ const NewsPage = ({data}) => {
                              title: post.title,
                              description: post.excerpt,
                              images: [
-                                 { url:post.coverImage?.url}
+                                 { url:post.coverImage?.url,alt: 'Image'}
                              ],
                              site_name:"T-Hands",
                          }}/>
