@@ -20,7 +20,7 @@ const NewsPage = ({data}) => {
                 <Header/>
                 <NextSeo title={post.title}
                          description={post.excerpt}
-                         canonical={baseURL}
+                         canonical={url}
                          openGraph={{
                              url,
                              title: post.title,
