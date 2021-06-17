@@ -2,7 +2,7 @@ import {gql} from "@apollo/client";
 
 export const GET_NEWS =  gql`
 query getNews {
-  posts {
+  posts(orderBy: date_DESC) {
     content {
       raw
     }
