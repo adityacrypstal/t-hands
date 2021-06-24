@@ -35,6 +35,7 @@ class MyDocument extends Document {
                     <link rel="stylesheet" href="/css/owl.theme.default.min.css"/>
                     <link rel="stylesheet" href="/style.css"/>
                     <link rel="stylesheet" href="/responsive.css"/>
+
                     <script async src="https://www.googletagmanager.com/gtag/js?id=G-M098JX4BV8"></script>
                     <script dangerouslySetInnerHTML={{
                         __html: `window.dataLayer = window.dataLayer || [];
