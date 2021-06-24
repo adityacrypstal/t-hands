@@ -15,7 +15,7 @@ export const GET_COMMITTEE_MEMBERS = gql`query getCommitteeMembers{
   }
 }`;
 export const GET_ALL_MEMBERS = gql`query getAllMembers{
-  members{
+  members(orderBy: order_id_ASC){
     name
     role
     committeeMember
