@@ -35,13 +35,14 @@ class MyDocument extends Document {
                     <link rel="stylesheet" href="/css/owl.theme.default.min.css"/>
                     <link rel="stylesheet" href="/style.css"/>
                     <link rel="stylesheet" href="/responsive.css"/>
-                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-TJHLVYTL33"></script>
+                    <!-- Global site tag (gtag.js) - Google Analytics -->
+                    <script async src="https://www.googletagmanager.com/gtag/js?id=G-M098JX4BV8"></script>
                     <script>
                         window.dataLayer = window.dataLayer || [];
                         function gtag(){dataLayer.push(arguments)}
                         gtag('js', new Date());
 
-                        gtag('config', 'G-TJHLVYTL33');
+                        gtag('config', 'G-M098JX4BV8');
                     </script>
                 </Head>
                 <body>
@@ -53,6 +54,7 @@ class MyDocument extends Document {
                 <script src="/js/bootstrap.min.js"></script>
                 <script src="/js/owl.carousel.min.js"></script>
                 <script src="/js/active.js"></script>
+
             </Html>
         )
     }
