@@ -29,7 +29,7 @@ const Members = () => {
 
                         <tbody>
                         <tr>
-                            <td colSpan={4}  className={'text-center'}><b>Committee Members</b></td>
+                            <td colSpan={4}  className={'text-center'}><b>Core Committee Members</b></td>
                         </tr>
                         {data?.members.filter(i=>i.committeeMember).map((member, i) => {
                             return (

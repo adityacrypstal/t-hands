@@ -50,9 +50,9 @@ const Footer = () => {
                                     <h3>CONTACT US</h3>
                                     <ul>
                                         <li><a href="#"><i className="material-icons">facebook</i>fb.com/T.hands.fb.in</a></li>
-                                        <li><a href="#"><i className="material-icons">email</i>thandsorg@gmail.com</a>
+                                        <li><a href="mailto:thandsorg@gmail.com"><i className="material-icons">email</i>thandsorg@gmail.com</a>
                                         </li>
-                                        <li><a href="#"><i className="material-icons">call</i>+91 8089538574</a></li>
+                                        <li><a href="tel:+918089538574"><i className="material-icons">call</i>+91 8089538574</a></li>
                                     </ul>
                                 </div>
                             </div>

@@ -8,7 +8,7 @@ const News = () => {
     return (
         <section className="letast_news">
             <h2>latest news</h2>
-            <p>We aims to provide better living and education to the community. <br></br>Checkout oru recent activities
+            <p>We aims to provide better living and education to the community. <br></br>Checkout our recent activities
                 and latest news.</p>
             <div className="container">
                 <div className="row">

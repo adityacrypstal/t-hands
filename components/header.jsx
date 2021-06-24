@@ -12,11 +12,11 @@ const Header = ({path}) => {
                             <div className="contact">
                                 <div className="contact-item">
                                     <i className="material-icons">phone</i>
-                                    <a href="#">+91 8089538574</a>
+                                    <a href="tel:+918089538574">+91 8089538574</a>
                                 </div>
                                 <div className="contact-item">
                                     <i className="material-icons">emails</i>
-                                    <a href="#">thandsorg@gmail.com</a>
+                                    <a href="mailto:thandsorg@gmail.com">thandsorg@gmail.com</a>
                                 </div>
                             </div>
                         </div>
