@@ -12,8 +12,8 @@ const Carousel = () => {
                                 <div className="text">
                                     <h3>“The best way to find yourself, is to lose yourself in the service of others.”</h3>
                                     <p><i>-- Mahatma Gandhi</i></p>
-                                    <h5 className="white-button"><a href="#">DONATE NOW</a></h5>
-                                    <h5><a href="#">CONTACT US</a></h5>
+                                    <h5 className="white-button"><a href="/register">DONATE NOW</a></h5>
+                                    <h5><a href="/contact">CONTACT US</a></h5>
                                 </div>
                             </div>
                             <div className="item">
@@ -21,8 +21,8 @@ const Carousel = () => {
                                     <h3>“Service to others is the rent you pay for your room here on earth.” </h3>
                                     <p><i>-- Mohammed Ali</i></p>
 
-                                    <h5 className="white-button"><a href="#">DONATE NOW</a></h5>
-                                    <h5><a href="#">CONTACT US</a></h5>
+                                    <h5 className="white-button"><a href="/register">DONATE NOW</a></h5>
+                                    <h5><a href="/contact">CONTACT US</a></h5>
                                 </div>
                             </div>
                             <div className="item">
@@ -30,8 +30,8 @@ const Carousel = () => {
                                     <h3>“No act of kindness, no matter how small, is ever wasted.” </h3>
                                     <p><i>-- Aesop</i></p>
 
-                                    <h5 className="white-button"><a href="#">DONATE NOW</a></h5>
-                                    <h5><a href="#">CONTACT US</a></h5>
+                                    <h5 className="white-button"><a href="/register">DONATE NOW</a></h5>
+                                    <h5><a href="/contact">CONTACT US</a></h5>
                                 </div>
                             </div>
                         </div>
