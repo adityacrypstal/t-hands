@@ -1,7 +1,7 @@
 import {gql} from "@apollo/client";
 
 export const GET_COMMITTEE_MEMBERS = gql`query getCommitteeMembers{
-  members(where: {committeeMember: true,orderBy: order_id_ASC}) {
+  members(where: {committeeMember: true},orderBy: order_id_ASC) {
     name
     role
     facebook
