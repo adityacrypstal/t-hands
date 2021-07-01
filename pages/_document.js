@@ -19,11 +19,11 @@ class MyDocument extends Document {
                         content="thirikey, thands,t-hands, ngo, jmhs, bharanikavu,kerala"
                         name="keywords"/>
                     <meta name="robots" content="index, follow"/>
-                    <meta property="og:title" content="T-Hands || Be The Change"/>
-                    <meta property="og:description"
-                          content="Thirikey is an emerging organization formed and maintained by a bunch of batch mates of John Memorial High School Sasthamcotta (2007-2013) batch."/>
-                    <meta property="og:image" content="https://i.ibb.co/cNfSM6P/apple-icon.png"/>
-                    <meta property="og:url" content="http://t-hands.org"/>
+                    {/*<meta property="og:title" content="T-Hands || Be The Change"/>*/}
+                    {/*<meta property="og:description"*/}
+                    {/*      content="Thirikey is an emerging organization formed and maintained by a bunch of batch mates of John Memorial High School Sasthamcotta (2007-2013) batch."/>*/}
+                    {/*<meta property="og:image" content="https://i.ibb.co/cNfSM6P/apple-icon.png"/>*/}
+                    {/*<meta property="og:url" content="http://t-hands.org"/>*/}
                     <link rel="icon" href="/favicon.ico"/>
                     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"/>
                     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900" rel="stylesheet"/>
