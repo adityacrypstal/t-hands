@@ -45,6 +45,9 @@ const AboutUs = () => {
                     <p className={'about-text'}>Be the hands to bring the change</p>
                 </div>
             </div>
+            <div className="row" style={{display:"flex",justifyContent:'center',}}>
+                <a href="https://ibb.co/Wgkw51h"><img src="https://i.ibb.co/f4k5F7g/Whats-App-Image-2021-07-05-at-2-34-56-PM.jpg" alt="Whats-App-Image-2021-07-05-at-2-34-56-PM" border="0" style={{boxShadow: '0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)'}}/></a>
+            </div>
         </div>
     );
 };
