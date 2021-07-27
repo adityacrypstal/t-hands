@@ -22,6 +22,7 @@ export const GET_ALL_MEMBERS = gql`query getAllMembers{
     facebook
     instagram
     job
+    blood
     membershipId
     phone
     linkedIn
