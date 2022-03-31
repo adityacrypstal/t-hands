@@ -11,7 +11,7 @@ const AboutUs = () => {
                     </div>
                 </div>
                 <div className="col-md-6 about-text">
-                    <p> T-Hands is an emerging organization formed and maintained by a bunch of batch mates of John Memorial High School Sasthamcotta (2007-2013) batch. In today's hectic world social responsibility is something we are ignorant of.
+                    <p> T-Hands ( Lic: KLM/TC/111/2022 ) is an emerging organization formed and maintained by a bunch of batch mates of John Memorial High School Sasthamcotta (2007-2013) batch. In today's hectic world social responsibility is something we are ignorant of.
                         <br/> <br/>
                         T-hands is our Own creation to bring changes in the system by reminding their duties and responsibilities towards the society.
                         <br/> <br/>

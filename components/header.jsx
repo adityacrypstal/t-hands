@@ -1,5 +1,5 @@
 import React from 'react';
-import { useRouter } from 'next/router'
+import {useRouter} from 'next/router'
 
 const Header = ({path}) => {
     const router = useRouter();
@@ -18,6 +18,10 @@ const Header = ({path}) => {
                                     <i className="material-icons">emails</i>
                                     <a href="mailto:thandsorg@gmail.com">thandsorg@gmail.com</a>
                                 </div>
+                                <div className="contact-item" style={{marginLeft:'13px',}}>
+                                    <i className="material-icons">card_membership</i>
+                                    <a href="#" style={{marginLeft:'5px'}}>KLM/TC/111/2022</a>
+                                </div>
                             </div>
                         </div>
                         <div className="col-md-4 col-sm-4">
@@ -34,7 +38,7 @@ const Header = ({path}) => {
                         <div className="col-md-5 col-sm-12 col-xs-12">
                             <a href="#">
                                 <div className="main-logo">
-                                    <img src="/img/t-hands-logo.png" alt="" />
+                                    <img src="/img/t-hands-logo.png" alt=""/>
                                     <h2>T-Hands</h2>
                                 </div>
                             </a>
@@ -42,12 +46,16 @@ const Header = ({path}) => {
                         <div className="col-md-7 col-sm-12 col-xs-12">
                             <div className="menu">
                                 <ul className="nav navbar-nav">
-                                    <li className={router.asPath==="/"?"active":""}><a href="/">HOME</a></li>
-                                    <li className={router.asPath==="/about"?"active":""}><a href="/about" >ABOUT US</a></li>
-                                    <li className={router.asPath==="/members"?"active":""}><a href="/members" >MEMBERS</a></li>
-                                    <li className={router.asPath==="/news"?"active":""}><a href="/news" >NEWS</a></li>
+                                    <li className={router.asPath === "/" ? "active" : ""}><a href="/">HOME</a></li>
+                                    <li className={router.asPath === "/about" ? "active" : ""}><a href="/about">ABOUT
+                                        US</a></li>
+                                    <li className={router.asPath === "/members" ? "active" : ""}><a
+                                        href="/members">MEMBERS</a></li>
+                                    <li className={router.asPath === "/news" ? "active" : ""}><a href="/news">NEWS</a>
+                                    </li>
                                     <li><a href="https://thandsorg.blogspot.com/" target={"_blank"}>BLOG</a></li>
-                                    <li className={router.asPath==="/contact"?"active":""}><a href="/contact" >CONTACT</a></li>
+                                    <li className={router.asPath === "/contact" ? "active" : ""}><a
+                                        href="/contact">CONTACT</a></li>
                                 </ul>
                             </div>
                         </div>
